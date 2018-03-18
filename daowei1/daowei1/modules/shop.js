@@ -1,9 +1,9 @@
 const mongoose = require('mongoose')
 
-const ShopShema = new mongoose.Schema({
+const ShopSchema = new mongoose.Schema({
     serviceIndex:String,
     serviceType:Array,
     shopList:Array
 })
 
-module.exports = mongoose.model('shop',ShopShema)
+module.exports = mongoose.model('shop',ShopSchema)
